@@ -28,8 +28,8 @@ comments: true
 - Local minima/optima를 벗어나는 컨트롤된 방식으로 오르막 이동(더 나쁜 솔루션)을 허용함
 	- 확률로 더 나쁜 움직임을 받아들임
 	- random number를 체크한 후, random이 적으면 나쁘게 움직이고 높으면 움직이지 않음 
-- <img src="https://www.dropbox.com/s/4w56bige61wyoed/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-26%2023.53.53.png?raw=1">
-- <img src="https://www.dropbox.com/s/tldpmm7ds7gqneh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-27%2000.01.01.png?raw=1">
+- <img src="https://www.dropbox.com/s/4w56bige61wyoed/Screenshot%202019-03-26%2023.53.53.png?raw=1">
+- <img src="https://www.dropbox.com/s/tldpmm7ds7gqneh/Screenshot%202019-03-27%2000.01.01.png?raw=1">
 - 해를 반복해 개선하며 현재의 해 근방에 있는 해를 임의로 찾는데, 그 때 주어진 함수의 값과 전역 인자 T가 영향을 줌
 	- 위에서 말한 물리 과정과 비슷한 원리로 T(온도)의 값은 서서히 작아짐
 	- 처음엔 T가 크기 때문에 해가 크게 변화하지만, T가 0에 가까워짐에 따라 변화가 줄어듬
@@ -39,11 +39,11 @@ comments: true
 
 
 ### Notations
-<img src="https://www.dropbox.com/s/mdbt91lfzeafx4q/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-28%2020.39.11.png?raw=1">
+<img src="https://www.dropbox.com/s/mdbt91lfzeafx4q/Screenshot%202019-03-28%2020.39.11.png?raw=1">
 
 - 빨간색이 Final Solution
 
-<img src="https://www.dropbox.com/s/wxuijdt6m3ig532/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-28%2020.40.42.png?raw=1">
+<img src="https://www.dropbox.com/s/wxuijdt6m3ig532/Screenshot%202019-03-28%2020.40.42.png?raw=1">
 
 ### 방법
 - $$T_{0}$$, M, N, alpha, move operator의 종류를 설정
@@ -62,7 +62,7 @@ comments: true
 - $$x_{Final}$$을 찾고 좋은 Solution으로 기록
 
 ### Flowchart
-<img src="https://www.dropbox.com/s/repgqi2ne3n2nxu/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-28%2021.04.37.png?raw=1">
+<img src="https://www.dropbox.com/s/repgqi2ne3n2nxu/Screenshot%202019-03-28%2021.04.37.png?raw=1">
 
 ### Himmelblau 구현
 - [Himmelblau function](https://en.wikipedia.org/wiki/Himmelblau%27s_function)
@@ -188,7 +188,7 @@ plt.show()
 >>> Final OF is 0.000
 ```
 
-<img src="https://www.dropbox.com/s/88bwlvqwrgpj5ki/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-29%2020.47.40.png?raw=1">
+<img src="https://www.dropbox.com/s/88bwlvqwrgpj5ki/Screenshot%202019-03-29%2020.47.40.png?raw=1">
 
 - x0를 2로 바꾸고, y0을 1로 바꾸고 실행해보기
 
@@ -199,7 +199,7 @@ plt.show()
 - objective = minimize flow costs between the placed departments
 - flow cost is flow * distance
 - optimal flow costs is 107(or 214)
-- <img src="https://www.dropbox.com/s/2m64zmd3e114r2e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202019-03-29%2020.59.07.png?raw=1">
+- <img src="https://www.dropbox.com/s/2m64zmd3e114r2e/Screenshot%202019-03-29%2020.59.07.png?raw=1">
 
 ### 코드
 ```
